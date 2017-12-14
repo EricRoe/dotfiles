@@ -64,7 +64,6 @@ function scroll-screen($leaveRows){
 
 set-location c:\projects
 mode con cols=150 
-yacta
 
 ######################################################################
 # Aliases

@@ -35,20 +35,22 @@ set expandtab           " tabs to spaces
 set relativenumber      " relative line numbers to the current line
 set number              " combined with the above only make current line the absolute number
 
-colorscheme zellner     " Non-terrible colorscheme for pair programming on crappy monitors
 
 """
 " Custom Bindings
 """
+" page up and down
 noremap <leader>j <C-D>
 noremap <leader>k <C-U>
 
-" more ergonomic bindings
+" hitting z sucks
 noremap s z
 noremap ss zz
 noremap so zR
 noremap sc zM
-noremap e $
 
-" Y to yank line without newline or leading whitespace
-noremap Y mp^y$`p
+" system clipboard
+noremap <leader>p "*p
+noremap <leader>y "*y
+noremap <leader>d "*d
+
