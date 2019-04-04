@@ -1,0 +1,82 @@
+// Place your settings in this file to overwrite the default settings
+{
+    // Toggle to install plugins
+    "http.proxyStrictSSL": false,
+    // Font controlls
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.lineNumbers": "relative",
+    "prettier.printWidth": 128,
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "prettier.useTabs": false,
+    "editor.formatOnSave": true,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "workbench.panel.location": "bottom",
+    "vim.incsearch": true,
+    "vim.hlsearch": true,
+    "vim.ignorecase": true,
+    "vim.leader": "<space>",
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "/"
+            ],
+            "after": [
+                "*"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "?"
+            ],
+            "after": [
+                "#"
+            ]
+        },
+        {
+            "before": [
+                "s",
+                "s"
+            ],
+            "after": [
+                "z",
+                "z"
+            ]
+        },
+        {
+            "before": [
+                "s",
+                "o"
+            ],
+            "after": [
+                "z",
+                "R"
+            ]
+        },
+        {
+            "before": [
+                "s",
+                "c"
+            ],
+            "after": [
+                "z",
+                "M"
+            ]
+        },
+        {
+            "before": [
+                "s"
+            ],
+            "after": [
+                "z"
+            ]
+        }
+    ],
+    "window.zoomLevel": 1,
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "newUntitledFile"
+}
