@@ -39,6 +39,10 @@ set number              " combined with the above only make current line the abs
 """
 " Custom Bindings
 """
+" escape
+inoremap jk <esc>
+inoremap kj <esc>
+
 " page up and down
 noremap <leader>j <C-D>
 noremap <leader>k <C-U>
